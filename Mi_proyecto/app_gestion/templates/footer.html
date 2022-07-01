@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+</head>
+<body>
+    
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="{% static 'img/logo.png' %}" alt="">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <br>
+                <h5>Correo Electronico:</h5>
+                <p>contacto@minsal.cl</p>
+                <h5>Telefono de contacto:</h5>
+                <p>+56247812980</p>
+            </div>
+            <div class="box">
+                <h2>Revisa nuestros Videos!</h2>
+                <div class="red-social">
+                    <a href="#" class="youtube"><img class="youtube" src="{% static 'img/mevacuno.png' %}" alt="">   Campaña Yo me Vacuno</a>
+                    <br>
+                    <br>
+                    <a href="#" class="youtube"><img class="youtube" src="{% static 'img/mevacuno2.png' %}" alt="">  Revisa los Centros de Vacunación</a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2022 <b>Ministerio de salud</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+</body>
+</html>
